@@ -27,5 +27,5 @@ function mousePressed() {
 }
 
 function keyPressed() {
-  if (key == "s" || key == "S") saveCanvas('myCanvas', 'png');
+  if (key == "s" || key == "S") saveCanvas('screenshot', 'png');
 }
